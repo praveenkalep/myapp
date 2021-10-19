@@ -9,6 +9,7 @@
     height: 70px;
     top: 5px;
     background-color: black; 
+    display: block;
   }
   .menu{
     position: sticky;

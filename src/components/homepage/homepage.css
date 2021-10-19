@@ -1,7 +1,7 @@
 
 .home-page{
-    min-height: 100vh;
-    background-image:url(/home/praveen/Desktop/myapp/src/components/images/home.png);
+    min-height: 120vh;
+    background-image:url(../images/home.png);
     background-color: rgb(105, 17, 177); 
     display: 100%;
   }

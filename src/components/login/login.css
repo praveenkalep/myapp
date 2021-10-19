@@ -3,7 +3,7 @@
   padding-top: 5%;
   padding-left: 38%;
   padding-right: 40%;
-  background-image: url(/home/praveen/Desktop/myapp/src/components/images/back.jpg);
+  background-image: url(../images/back.jpg);
   background-size: cover;
   margin: 0 auto;
   }
