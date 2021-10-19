@@ -1,0 +1,20 @@
+
+.home-page{
+    min-height: 100vh;
+    background-image:url(/home/praveen/Desktop/myapp/src/components/images/home.png);
+    background-color: rgb(105, 17, 177); 
+    display: 100%;
+  }
+.home-text{
+    margin: 0 auto;
+    padding: 40px
+  }
+  .home-text h1 {
+    color: yellow;
+    font-family: cursive;
+    font-size: 35px;
+  }
+  .home-text p{
+    font-size: 25px;
+    color:white;
+  }
