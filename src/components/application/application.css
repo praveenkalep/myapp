@@ -1,14 +1,17 @@
 .application-page{
     min-height: 120vh;
-    padding-top: 5%;
-    padding-left: 20%;
-    padding-right: 20%;
     background-image: url(../images/back.jpg);
     background-size: cover;
     display: 100%;
+    margin: 0%;
+    padding: 0%;
   }
   .application-content{
     position: absolute;
+    margin: auto;
+    margin-top: 5%;
+    margin-left: 20%;
+    
   }
   .application-title{
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -22,10 +25,11 @@
    background-color:rgb(97, 29, 86);
    height: 550px;
    float: left;
-   position: relative;
+   position: absolute;
    border-radius: 25px;
    box-shadow: inset 0 0 15px rgb(0, 0, 0);
    margin: 0% auto;
+   position: relative;
   }
   .application-register{
     background-color:rgb(97, 29, 86);
@@ -85,5 +89,8 @@
   .buton{
     text-align: center;
     padding-left: 50px;
+  }
+  .application-group input[type="date"] label{
+    display: none;
   }
   

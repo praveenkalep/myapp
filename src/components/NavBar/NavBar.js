@@ -13,6 +13,7 @@ import application from "../application/application"
 import login from "../login/login"
 import signup from"../signup/signup"
 import HomePage from "../homepage/homepage";
+import logo from "../images/logo.png"
 
 function NavBar (){
     return (
@@ -22,22 +23,17 @@ function NavBar (){
       <ul className="signup"> 
       <li>
         <div className="navbar-content">
-          <Link to="/login">Login</Link>
+        <img src={logo} alt="" className="logo" />
         </div>
       </li>
       <li>
         <div className="navbar-content">
-          <Link to="/signup">Signup</Link>
+          <Link to="/login" className="icons"><i class="zmdi zmdi-sign-in material-icons-sign-in"></i></Link>
         </div>
-      </li> 
+      </li>
       <li>
         <div className="navbar-content">
-          <div className="search-bar">
-            <label htmlFor="search">
-            <i class="zmdi zmdi-search material-icons-search"></i>
-            </label>
-            <input type="text" className="search-text" placeholder="Search.."/>
-          </div>
+          <Link to="/signup" className="icons"><i class="zmdi zmdi-account-add material-icons-account-add"></i></Link>
         </div>
       </li> 
       <li>
@@ -47,7 +43,6 @@ function NavBar (){
       </li>
       <li>
         <div className="navbar-content">
-          
           <Link to="/parlour">Parlours</Link>
         </div>
       </li>
@@ -63,7 +58,22 @@ function NavBar (){
       </li>
       <li>
         <div className="navbar-content">
-          <Link to="/about">About</Link>
+          <Link to="/about">About Us</Link>
+        </div>
+      </li>
+      <li>
+        <div className="navbar-content">
+          <Link to="/about" className="icons"><i class="zmdi zmdi-facebook material-icons-facebook" ></i></Link>
+        </div>
+      </li>
+      <li>
+        <div className="navbar-content">
+          <Link to="/about"  className="icons"><i class="zmdi zmdi-instagram material-icons-instagram" ></i></Link>
+        </div>
+      </li>
+      <li>
+        <div className="navbar-content">
+          <Link to="/about"  className="icons"><i class="zmdi zmdi-twitter material-icons-twitter" ></i></Link>
         </div>
       </li>
       </ul>

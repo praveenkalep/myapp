@@ -17,11 +17,12 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import NavBar from "./components/NavBar/NavBar";
 import HomePage from "./components/homepage/homepage"
 import Header from "./components/Header/Header";
+import ourservices from "./components/ourservices/ourservices"
 function App  () {
   return (
     <div> 
        <Router>
-      <Header />
+   
       <NavBar />   
      <Switch>
       <Route exact path ="/" component={HomePage} />

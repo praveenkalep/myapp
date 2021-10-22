@@ -13,13 +13,13 @@ import "./application.css";
                     <input type="text" id="name" name="name" autoComplete="off" placeholder=" User Name"/>
                 </div>
                 <br/>
-                <div className="application-group">
+                <div className="application-group" >
                   <label htmlFor="dob">
                   <i class="zmdi zmdi-calendar-check material-icons-calender-check"></i></label>
-                    <input type="text" id="dob" name="dob" autoComplete="off" placeholder="Date Of Birth"/>
+                    <input type="date" id="dob" name="dob" autoComplete="off" placeholder="Date Of Birth"/>
                 </div> 
                 <br/>         
-                <div className="application-group">
+                <div className="application-group" >
                   <label htmlFor="phoneno">
                   <i class="zmdi zmdi-phone-in-talk material-icons-phone-in-talk"></i></label>
                     <input type="text" id="phoneno" name="phoneno" autoComplete="off" placeholder=" Phone Number"/>
@@ -34,17 +34,17 @@ import "./application.css";
                 <div className="application-group">
                   <label htmlFor="cv" className="bd">
                   <i class="zmdi zmdi-attachment material-icons-attachment"></i>  Attached your certificate</label>
-                    <input type="file" id="ceno" name="ceno" autoComplete="off" placeholder="Attached your certificate"/>
+                    <input type="file" id="ceno" name="ceno" autoComplete="off" />
                 </div>                         
                <br/>     
                <div className="application-group">
                   <label htmlFor="cv" className="bd">
-                  <i class="zmdi zmdi-attachment material-icons-attachment"></i>  Attached your biodata </label>
+                  <i class="zmdi zmdi-attachment material-icons-attachment"></i>  Attached your Biodata </label>
                     <input type="file" id="cv" name="cv" autoComplete="off"/>
                 </div>
                 <br/>
                 <div className="buton">
-                  <input className="button" value="Register" type="button"/>
+                  <input className="button" value="Apply" type="button"/>
                   </div>    
               </form>
             </div>     

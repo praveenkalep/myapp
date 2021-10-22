@@ -48,7 +48,7 @@ function signup (){
                 <br/>     
 
                 <div className="buton">
-                  <input className="button" value="Register" type="button"/>
+                  <input className="button" value="Signup" type="button"/>
                   </div>    
               </form>
             </div>     

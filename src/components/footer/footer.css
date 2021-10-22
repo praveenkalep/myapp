@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');
+.footer-page{
+    min-height: 50vh;
+    border: 15px black;
+    background-color: rgb(121, 15, 115);
+}
+.footer-links ul li {
+    display: inline-block;
+    font-family:sans-serif;
+    font-size: 20px;
+    padding: 45px;
+  
+}
+.footer-links a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+.footer-links a:hover{
+    color: rgb(222, 165, 233);
+}
+.foot-icon li{
+  display: inline-block;
+  padding: 45px;
+  font-size: 25px;
+  margin-top: -55px;
+}
+.foot-icon {
+    margin-top: -20px;
+}
+.foot-icon a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+.footer-icon a li:hover{
+    color: rgb(222, 165, 233);
+}
+.footer-privacy{
+    margin-top: -55px;
+}
+.footer-privacy a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding-top: -15%;
+}
+.footer-privacy li{
+    display: inline-block;
+    padding: 15px;
+    font-size: 15px;
+  }
+  .footer-privacy a:hover{
+    color: rgb(222, 165, 233);
+}

@@ -1,41 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');
 .App{
     background-color: black;
   }
+  .logo{
+    height: 90px;
+    width: 90px;
+    margin-left: 2px;
+   
+  }
+  
   .navbar {
-    box-shadow: 0px 3px 25px rgb(8, 8, 8);
     position: sticky;
     overflow: hidden;
     display: 100%;
-    height: 70px;
+    height: 100px;
     top: 5px;
-    background-color: black; 
+    background-color: rgb(255, 255, 255); 
     display: block;
+    border: none;
+    margin-top: -15px;
   }
-  .menu{
-    position: sticky;
-    top: 0px;
-  }
-  
+ 
   .navbar li {
     display: inline-block;
     padding: 0px;
-    font-family:sans-serif;
     padding-left: 0%;
     position: sticky;
+    margin-top: -10px;
+    text-align: center;
   }
   
   .navbar a {
     float: left;
-    color: #f0ecec;
+    color: rgb(121, 15, 115);
     text-align: center;
-    padding: 0px 18px;
+    padding: 0px 25px;
     text-decoration: none;
     font-size: 17px; 
     cursor: pointer;
     position: sticky;
-    font-family: "Poppins",sans-serif;
-  }
-  a:after{
+    font-family: "Poppins",sans-serif; 
+   }
+  .navbar a:after{
     content: "";
     position: absolute;
     height: 3px;
@@ -44,16 +50,20 @@
     background:rgb(225, 199, 250);
     bottom: -10px;
     transition: 0.3s;
-    
   }
   a:hover:after{
   width: 100%;
   }
-  a:hover{
-    color: #f0ecec;
-  }
+ a :hover :active{
+   border:red;
+ }
   .navbar-content{
    padding: 15px;
+  }
+  .navbar-contents{
+    padding: 15px;
+    padding-inline-end: 25px;
+    
   }
   .signup{
     float: left;
@@ -61,29 +71,7 @@
     padding-top: 5px;
   
   }
+ .navbar li i{
+    color:#9801b6
+  }
   
-  .search-bar{
-    background-color:rgb(220, 185, 252);
-    border-radius: 30px;
-    margin: 0 auto;
-    width: 550px;
-    padding-left: 20px;
-    border: none;
-    box-shadow: inset  15px black;
-  }
-  .search-bar i{
-    color: #070606;
-    font-weight: bolder;
-  }
-  .search-text{
-    height: 30px;
-    width: 500px;
-    background-color: rgb(220, 185, 252);
-    border: none;
-    font-size: 15px;
-    border-radius: 30px;
-    position: relative; 
-    margin: 0 auto;
-    padding-left: 15px;
-    color:black;
-  }
