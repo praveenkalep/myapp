@@ -63,12 +63,12 @@ function NavBar (){
       </li>
       <li>
         <div className="navbar-content">
-          <Link to="/about" className="icons"><i class="zmdi zmdi-facebook material-icons-facebook" ></i></Link>
+          <Link to="https://www.facebook.com/Beautyone-103922378734954/" className="icons"><i class="zmdi zmdi-facebook material-icons-facebook" ></i></Link>
         </div>
       </li>
       <li>
         <div className="navbar-content">
-          <Link to="/about"  className="icons"><i class="zmdi zmdi-instagram material-icons-instagram" ></i></Link>
+          <Link to="https://www.instagram.com/invites/contact/?i=b7npiv9pw8k2&utm_content=mv0706a"  className="icons"><i class="zmdi zmdi-instagram material-icons-instagram" ></i></Link>
         </div>
       </li>
       <li>

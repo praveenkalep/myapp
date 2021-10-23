@@ -13,8 +13,8 @@ function Footer (){
             </div>
              <div className="foot-icon">
                  <ul>
-                    <li><Link to="/parlours" ><i class="zmdi zmdi-facebook material-icons-facebook"/></Link></li>
-                    <li><Link to="/application" ><i class="zmdi zmdi-instagram material-icons-instagram" ></i></Link></li>
+                    <li><Link to="https://www.facebook.com/Beautyone-103922378734954/" ><i class="zmdi zmdi-facebook material-icons-facebook"/></Link></li>
+                    <li><Link to="https://www.instagram.com/invites/contact/?i=b7npiv9pw8k2&utm_content=mv0706a" ><i class="zmdi zmdi-instagram material-icons-instagram" ></i></Link></li>
                     <li><Link to="/about" ><i class="zmdi zmdi-twitter material-icons-twitter" ></i></Link></li>
                 </ul>
            </div>

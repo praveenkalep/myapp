@@ -16,8 +16,8 @@ import logo from "./components/images/logo.png";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import NavBar from "./components/NavBar/NavBar";
 import HomePage from "./components/homepage/homepage"
-import Header from "./components/Header/Header";
 import ourservices from "./components/ourservices/ourservices"
+import Exparlour from "./components/exparlour/exparlour";
 function App  () {
   return (
     <div> 
@@ -32,6 +32,7 @@ function App  () {
       <Route  path ="/tips" component={ tips } />
       <Route  path ="/application" component={ application } />
       <Route  path ="/about" component={ about } />
+      <Route path="/exparlour" component={Exparlour} />
     </Switch>
   </Router>
   </div>

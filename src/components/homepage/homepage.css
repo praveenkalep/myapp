@@ -22,6 +22,7 @@
   font-family:sans-serif ; 
   font-weight: bolder;
 }
+
 .image-text h2 {
   color: rgb(255, 255, 255);
   font-family:sans-serif ; 
@@ -98,13 +99,13 @@ input.appo:hover{
 }
 .team{
   height:200px;
-  width: 180px;
+  width: 170px;
   transition: transform 0.2s;
  
 }
 .mem:hover {
   transform: scale(1.2); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
-}
+}f
 .mem h3{
   font-size: 20px;
   margin-top: 15px;
@@ -112,7 +113,32 @@ input.appo:hover{
   color:rgb(121, 15, 115) ;
 }
 .team-div h1{
-  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-seri;
   font-weight: bolder;
   color: rgb(121, 15, 115);
+}
+.intro h1 {
+ font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+ font-weight: bolder;
+ color: rgb(121, 15, 115);
+ text-align: center;
+}
+.intro p{
+  font-size: 20px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+  color: rgb(121, 15, 115);
+  float: right;
+  width: 900px;
+  margin-left: 35px;
+  
+}
+
+.img1{
+  width: 300px;
+  height: 400px;
+  margin-left: 35px;
+  margin-top: -125px;
+}
+.intro ul li{
+  display: inline-block;
 }

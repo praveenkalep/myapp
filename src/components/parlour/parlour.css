@@ -1,0 +1,29 @@
+.parlour-page ul li{
+    display: inline-block;
+    text-align: center;
+    padding: 15px;
+    margin-left: 65px;
+    margin-top: 35px;
+    min-height: 60vh;
+    margin-bottom: 25px;
+}
+.parlour-page ul li a{
+    text-decoration: none;
+}
+.par{
+    border: 5px black;
+}
+.par:hover {
+    transform: scale(1.2)
+}
+.Par{
+    height: 300px;
+    width: 30px;
+    transition: transform 0.2s;
+}
+.parlour-page h2{
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(116, 5, 116);
+}

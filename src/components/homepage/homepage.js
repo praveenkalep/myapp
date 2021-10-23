@@ -10,6 +10,7 @@ import pirathap from "../images/pirathap.png"
 import vitthiya from "../images/vitthiya.png"
 import kruthiga from "../images/kruthiga.png"
 import me from  "../images/me.png"
+import intro2 from "../images/intro2.png"
  function HomePage (){
      return(
         <div className="home-page">
@@ -41,7 +42,23 @@ import me from  "../images/me.png"
                          </div></li>         
              </ul>
             </div>
+            </center>
             <br/>
+            <div className="intro">
+                <h1>Introducing..</h1>
+                <br/><br/>
+                <ul>
+                <li><img src={intro2} alt="" className="img1" /> </li>
+               <li><p>For everyone, beauty is a must-have. Women, in particular, need to be aware of this. However, the main issue is that they do not have enough time to highlight their beauty. Beautyone is the answer. This is the simplest action you can take.
+On our website, you may learn everything there is to know about beauty salons, select your preferred salon, and schedule an appointment with one of our beauty salon specialists. We hope you like the enhanced service provided by this website.
+<Link to="/parlour"><input type="button" value="Read More.."  className="our-services-but"/></Link></p></li> 
+                    <br/>
+                    
+                </ul>
+                <div></div>
+            </div>
+            <br/><br/>
+            <center>
             <div className="team-div">
                 <h1>Our Pillers</h1>
                 <br/>
@@ -49,19 +66,19 @@ import me from  "../images/me.png"
                     <li>
                         <div className="mem">
                         <img src ={kruthiga} alt="" className="team"/>
-                        <h3>Miss.Kruthiga <br/>Suthagaran</h3>
+                        <h3>Miss.Kruthiga <br/>Suthakaran</h3>
                         </div>
                     </li>
                     <li>
                         <div  className="mem">
                         <img src ={vitthiya} alt="" className="team"/>
-                        <h3>Miss.Vitthiya <br/>Premachandran</h3>
+                        <h3>Miss.Vitthiya <br/>Niththiyananthan</h3>
                         </div>
                     </li>
                     <li>
                         <div  className="mem">
                         <img src ={pirathap} alt="" className="team"/>
-                        <h3>Mr.Sivananthan <br/>Prathap</h3>
+                        <h3>Mr.Sivananthan <br/>Pirathap</h3>
                         </div>
                     </li>
                     <li>

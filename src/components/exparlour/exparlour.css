@@ -1,0 +1,91 @@
+.expar-log{
+    margin-top: 5px;
+    margin-left: 42%;
+    height: 180px;
+}
+.exparlour-page h1{
+    font-size: 25px;
+    text-align: center;
+    font-family: sans-serif;
+    color: rgb(95, 35, 95);
+}
+.exparlour{
+    margin-left:90px;
+}
+.ex-img-txt{
+    text-align: center;
+    margin-top: -150px;
+
+}
+.ex-img-txt h3{
+    color: rgb(255, 255, 255);
+    font-size: 55px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+ 
+}
+.ex-img-txt p{
+    font-size: 35px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(224, 127, 0);
+}
+.packages ul li{
+    display: inline-block;
+}
+.packages{
+    margin-top: 20px;
+    
+}
+.packages h3{
+    text-align: center;
+    font-size: 45px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+}
+.parl{
+    margin-left: 65px;
+    padding: 25px;
+}
+.Par{
+    height: 300px;
+    width: 300px;
+   
+}
+.Par:hover{
+    opacity: 0.5;
+}
+.parl p{
+    text-align: center;
+    color: rgb(136, 136, 136);
+    font-size: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.parl input{
+    display: inline-block;
+}
+.apmnt{
+   height: 55px;
+   width: 150px;
+   border-color:purple ;
+   color: purple;
+}
+input.apmnt:hover{
+    background-color: purple;
+    color: white;
+}
+.bk  {
+   height: 55px;
+   width: 150px;
+   border-color: rgb(212, 142, 11);
+   color: rgb(212, 142, 11);
+}
+input.bk:hover{
+    background-color: rgb(212, 142, 11);
+    color: #ffffff;
+}
+.parl-disc {
+    text-align: center;
+    font-size: 20px;
+    font-family: fantasy;
+   
+}
