@@ -18,6 +18,8 @@ import NavBar from "./components/NavBar/NavBar";
 import HomePage from "./components/homepage/homepage"
 import ourservices from "./components/ourservices/ourservices"
 import Exparlour from "./components/exparlour/exparlour";
+import Booking from "./components/booking/booking"
+
 function App  () {
   return (
     <div> 
@@ -33,6 +35,8 @@ function App  () {
       <Route  path ="/application" component={ application } />
       <Route  path ="/about" component={ about } />
       <Route path="/exparlour" component={Exparlour} />
+      <Route path="/booking" component={Booking} />
+     
     </Switch>
   </Router>
   </div>

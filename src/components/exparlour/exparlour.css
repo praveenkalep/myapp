@@ -49,16 +49,18 @@
 .Par{
     height: 300px;
     width: 300px;
-   
+    transition: transform 1s;
 }
 .Par:hover{
     opacity: 0.5;
+    transform: scale(1.1); 
 }
 .parl p{
     text-align: center;
     color: rgb(136, 136, 136);
     font-size: 25px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 25px;
 }
 .parl input{
     display: inline-block;

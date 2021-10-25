@@ -100,12 +100,13 @@ input.appo:hover{
 .team{
   height:200px;
   width: 170px;
-  transition: transform 0.2s;
- 
+}
+.mem{
+  transition: transform 1s;
 }
 .mem:hover {
   transform: scale(1.2); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
-}f
+}
 .mem h3{
   font-size: 20px;
   margin-top: 15px;
@@ -141,4 +142,9 @@ input.appo:hover{
 }
 .intro ul li{
   display: inline-block;
+}
+ video{
+    margin-left: auto;
+    margin-right: auto;
+    display: block
 }

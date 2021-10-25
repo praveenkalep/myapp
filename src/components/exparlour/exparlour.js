@@ -13,6 +13,7 @@ import Mehndi from "../images/mehndi.png"
 import Hairstraight from "../images/hairstraight.png"
 import {Link} from "react-router-dom"
 import Footer from "../footer/footer";
+import Booking from "../booking/booking"
 
 function Exparlour (){
     return (
@@ -33,52 +34,52 @@ function Exparlour (){
             <ul className="line"> 
               <li><div className="parl"><img src={Bridel} alt="" className="Par" />
                   <p>Bridal Makeup</p>
-                     <Link><input type="button" name="ap" value="appoinment" className="apmnt" />
-                          <input type="button" name="bk" value="Book" className="bk"/></Link>
+                     <Link to="/appoinment"><input type="button" name="ap" value="Appoinment" className="apmnt"/></Link>
+                         <Link to="booking"> <input type="button" name="bk" value="Book" className="bk"/></Link>
                   </div></li>
               <li><div className="parl"><img src={Makeup} alt="" className="Par" />
                  <p>Bleaching Treatment</p>
-                    <Link><input type="button" name="ap" value="appoinment" className="apmnt" />
-                          <input type="button" name="bk" value="Book" className="bk"/></Link>
+                    <Link><input type="button" name="ap" value="Appoinment" className="apmnt"/></Link>
+                    <Link><input type="button" name="bk" value="Book" className="bk"/></Link>
                     </div></li>
                <li><div className="parl"><img src={Bleach} alt="" className="Par" />
                   <p>Facial</p>
-                   <Link><input type="button" name="ap" value="appoinment" className="apmnt" />
-                          <input type="button" name="bk" value="Book" className="bk"/></Link>
+                   <Link><input type="button" name="ap" value="Appoinment" className="apmnt" /></Link>
+                   <Link> <input type="button" name="bk" value="Book" className="bk"/></Link>
                  </div></li>
         </ul>
         <ul className="line"> 
               <li><div className="parl"><img src={Nail} alt="" className="Par" />
                   <p>Nail Art</p>
-                     <Link><input type="button" name="ap" value="appoinment" className="apmnt" />
-                          <input type="button" name="bk" value="Book" className="bk"/></Link>
+                     <Link to={Booking}><input type="button" name="ap" value="Appoinment" className="apmnt" /></Link>
+                     <Link> <input type="button" name="bk" value="Book" className="bk"/></Link>
                   </div></li>
               <li><div className="parl"><img src={Haircut} alt="" className="Par" />
                  <p>Hair Cut</p>
-                    <Link><input type="button" name="ap" value="appoinment" className="apmnt" />
-                          <input type="button" name="bk" value="Book" className="bk"/></Link>
+                    <Link><input type="button" name="ap" value="Appoinment" className="apmnt" /></Link>
+                    <Link><input type="button" name="bk" value="Book" className="bk"/></Link>
                     </div></li>
                <li><div className="parl"><img src={Haircolor} alt="" className="Par" />
                   <p>Hair Coloring</p>
-                   <Link><input type="button" name="ap" value="appoinment" className="apmnt" />
-                          <input type="button" name="bk" value="Book" className="bk"/></Link>
+                   <Link><input type="button" name="ap" value="Appoinment" className="apmnt" /></Link>
+                   <Link><input type="button" name="bk" value="Book" className="bk"/></Link>
                  </div></li>
         </ul>
         <ul className="line"> 
               <li><div className="parl"><img src={Mehndi} alt="" className="Par" />
                   <p>Trendly Mehndi</p>
-                     <Link><input type="button" name="ap" value="appoinment" className="apmnt" />
-                          <input type="button" name="bk" value="Book" className="bk"/></Link>
+                     <Link><input type="button" name="ap" value="Appoinment" className="apmnt" /></Link>
+                     <Link> <input type="button" name="bk" value="Book" className="bk"/></Link>
                   </div></li>
               <li><div className="parl"><img src={Eye} alt="" className="Par" />
                  <p>Eye Brow</p>
-                    <Link><input type="button" name="ap" value="appoinment" className="apmnt" />
-                          <input type="button" name="bk" value="Book" className="bk"/></Link>
+                    <Link><input type="button" name="ap" value="Appoinment" className="apmnt" /></Link>
+                    <Link><input type="button" name="bk" value="Book" className="bk"/></Link>
                     </div></li>
                <li><div className="parl"><img src={Hairstraight} alt="" className="Par" />
                   <p>Hair Straightening</p>
-                   <Link><input type="button" name="ap" value="appoinment" className="apmnt" />
-                          <input type="button" name="bk" value="Book" className="bk"/></Link>
+                   <Link><input type="button" name="ap" value="Appoinment" className="apmnt" /></Link>
+                   <Link><input type="button" name="bk" value="Book" className="bk"/></Link>
                  </div></li>
         </ul>
         <div className="parl-disc">
@@ -90,9 +91,9 @@ function Exparlour (){
         beautysalon@gmail.com</p>
         </div>
         </div>
-        <center>
+        
             <Footer />
-        </center>
+       
         </div>
     );
 };

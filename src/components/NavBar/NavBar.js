@@ -15,6 +15,7 @@ import signup from"../signup/signup"
 import HomePage from "../homepage/homepage";
 import logo from "../images/logo.png"
 
+
 function NavBar (){
     return (
         <div className="menu">
@@ -63,12 +64,12 @@ function NavBar (){
       </li>
       <li>
         <div className="navbar-content">
-          <Link to="https://www.facebook.com/Beautyone-103922378734954/" className="icons"><i class="zmdi zmdi-facebook material-icons-facebook" ></i></Link>
+          <Link to={{pathname:"https://www.facebook.com/Beautyone-103922378734954/"}} className="icons" target="_blank" ><i class="zmdi zmdi-facebook material-icons-facebook" ></i></Link>
         </div>
       </li>
       <li>
         <div className="navbar-content">
-          <Link to="https://www.instagram.com/invites/contact/?i=b7npiv9pw8k2&utm_content=mv0706a"  className="icons"><i class="zmdi zmdi-instagram material-icons-instagram" ></i></Link>
+          <Link to={{pathname:"https://www.instagram.com/invites/contact/?i=b7npiv9pw8k2&utm_content=mv0706a"}} target="_blank"  className="icons"><i class="zmdi zmdi-instagram material-icons-instagram" ></i></Link>
         </div>
       </li>
       <li>

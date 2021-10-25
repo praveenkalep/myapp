@@ -33,9 +33,9 @@ function parlour (){
          <li><Link><div className="par"><img src={Par8} alt="" className="Par" /><h2> Amaya Beauty Salon</h2></div></Link></li>
         </ul>
         </section>
-        <center>
+       
             <Footer />
-        </center>
+        
         </div>
     );
 };

@@ -24,16 +24,16 @@ function login () {
                 </div>
                 <br/>
                 <div className="buton">
-                  <input className="button" value="Login" type="button"/>
+                  <button className="button" value="Login" type="submit">Login</button>
                   </div>    
               </form>
             </div>     
             </div>
            
     </section>  
-    <center>
+   
             <Footer/>
-            </center> 
+             
     </div>
      );
  };

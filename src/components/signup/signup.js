@@ -1,11 +1,5 @@
 import React from "react";
 import "./signup.css"
-import {
-  BrowserRouter as Router,
-  Link,
-  Switch,
-  Route
-} from "react-router-dom";
 import intro from "../images/intro.png"
 import Footer from "../footer/footer";
 
@@ -51,15 +45,15 @@ function signup (){
                 </div> 
                 <br/>     
                 <div className="buton">
-                  <input className="button" value="Signup" type="button"/>
+                  <button className="button" value="Signup" type="submit">Signup</button>
                   </div>
               </form>
             </div>     
             </div>              
     </section>  
-    <center>
+   
     <Footer/>
-    </center> 
+    
     </div>
     
   );

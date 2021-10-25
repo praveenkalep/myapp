@@ -99,7 +99,7 @@ import Footer from "../footer/footer"
                 </div>
                 <br/>
                 <div className="buton">
-                  <input className="button" value="Apply" type="button"/>
+                  <button className="submit" value="Apply" type="button" className="button">Apply</button>
                   </div>  
                 <br/>
               </form>
@@ -107,9 +107,9 @@ import Footer from "../footer/footer"
             </div>
            
     </section>   
-     <center>
+   
      <Footer/>
-   </center>
+  
    </div>
      )
  }

@@ -9,8 +9,9 @@ import Footer from "../footer/footer"
 import pirathap from "../images/pirathap.png"
 import vitthiya from "../images/vitthiya.png"
 import kruthiga from "../images/kruthiga.png"
-import me from  "../images/me.png"
+import praveen from  "../images/me.png"
 import intro2 from "../images/intro2.png"
+import Video from "../images/video.mp4"
  function HomePage (){
      return(
         <div className="home-page">
@@ -50,13 +51,19 @@ import intro2 from "../images/intro2.png"
                 <ul>
                 <li><img src={intro2} alt="" className="img1" /> </li>
                <li><p>For everyone, beauty is a must-have. Women, in particular, need to be aware of this. However, the main issue is that they do not have enough time to highlight their beauty. Beautyone is the answer. This is the simplest action you can take.
-On our website, you may learn everything there is to know about beauty salons, select your preferred salon, and schedule an appointment with one of our beauty salon specialists. We hope you like the enhanced service provided by this website.
-<Link to="/parlour"><input type="button" value="Read More.."  className="our-services-but"/></Link></p></li> 
+                On our website, you may learn everything there is to know about beauty salons, select your preferred salon, and schedule an appointment with one of our beauty salon specialists. We hope you like the enhanced service provided by this website.
+                <Link to="/parlour"><input type="button" value="Read More.."  className="our-services-but"/></Link></p></li> 
                     <br/>
                     
                 </ul>
                 <div></div>
             </div>
+            <br/><br/>   
+            <div clasName="video">
+                   <video width="850" height="600" controls loop loop={true} autoPlay={true} muted={true}>
+                       <source src={Video} type="video/mp4"/>
+                   </video>
+            </div>         
             <br/><br/>
             <center>
             <div className="team-div">
@@ -83,7 +90,7 @@ On our website, you may learn everything there is to know about beauty salons, s
                     </li>
                     <li>
                         <div  className="mem">
-                        <img src ={me} alt="" className="team"/>
+                        <img src ={praveen} alt="" className="team"/>
                         <h3>Mr.Pathmakumar <br/>Praveen</h3>
                         </div>
                     </li>
@@ -91,10 +98,10 @@ On our website, you may learn everything there is to know about beauty salons, s
             </div>
             <br/> 
             <div>
-                < Footer/>
+                
             </div>
-    
             </center>
+            <Footer/>
         </div>
      );  
  };
