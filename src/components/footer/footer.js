@@ -8,7 +8,7 @@ function Footer (){
                 <ul>
                     <li><Link to="/parlour">Parlours</Link></li>
                     <li><Link to="/application">Application</Link></li>
-                    <li><Link to="/parlours">Get Serivices</Link></li>
+                    <li><Link to="/parlour">Get Serivices</Link></li>
                     <li><Link to="/tips">Tips</Link></li>
                     <li><Link to="/about">About Us</Link></li>                
                 </ul>             

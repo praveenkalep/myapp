@@ -45,9 +45,9 @@
   width: 200px;
   font-size: 20px;
   text-align: center;
-  border-color:rgb(121, 15, 115); 
   color: rgb(121, 15, 115);
   background-color: white;
+  border-color:rgb(121, 15, 115) ;
 }
 input.our-services-but:hover{
   background-color: rgb(121, 15, 115);
@@ -62,14 +62,19 @@ input.our-services-but:hover{
   width: 570px;
   height: 350px;
   margin-left: -20px;
- 
+  border-color: black;
 }
+.ser img{
+  border: 8px solid rgb(121, 15, 115);
+}
+
 .ser h1{
   font-size: 30px;
   margin-top: 15px;
   text-align: center;
-  font-family:Arial, Helvetica, sans-serif;
+  font-family:'Raleway', sans-serif;
   color: rgb(121, 15, 115);
+  font-weight: bolder;
 }
 
 .ser a{
@@ -86,6 +91,8 @@ input.our-services-but:hover{
   color: rgb(121, 15, 115);
   border-color:rgb(121, 15, 115) ;
   background-color: white;
+  opacity: 0.8;
+  font-family: 'Comfortaa', cursive;
 }
 input.appo:hover{
   color: rgb(250, 250, 250);
@@ -111,7 +118,8 @@ input.appo:hover{
   font-size: 20px;
   margin-top: 15px;
   font-weight: bold;
-  color:rgb(121, 15, 115) ;
+  color:rgb(121, 15, 115);
+  font-family: 'Comfortaa', cursive;
 }
 .team-div h1{
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-seri;
@@ -119,19 +127,20 @@ input.appo:hover{
   color: rgb(121, 15, 115);
 }
 .intro h1 {
- font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+
  font-weight: bolder;
  color: rgb(121, 15, 115);
  text-align: center;
+ margin-left:65px;
 }
 .intro p{
   font-size: 20px;
-  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+  font-family:'Cinzel Decorative',cursive;
   color: rgb(121, 15, 115);
   float: right;
-  width: 900px;
+  width: 700px;
   margin-left: 35px;
-  
+  border-color:purple;
 }
 
 .img1{
@@ -139,6 +148,7 @@ input.appo:hover{
   height: 400px;
   margin-left: 35px;
   margin-top: -125px;
+  
 }
 .intro ul li{
   display: inline-block;
@@ -146,5 +156,21 @@ input.appo:hover{
  video{
     margin-left: auto;
     margin-right: auto;
-    display: block
+    display: block;
+    margin-top:-460px;
+}
+.our-services-button{
+  margin-top: 40px;
+  height: 70px;
+  width: 200px;
+  font-size: 20px;
+  text-align: center;
+  color: rgb(121, 15, 115);
+  background-color: white;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+ 
+}
+input.our-services-button:hover{
+  background-color: rgb(121, 15, 115);
+  color: rgb(255, 255, 255);
 }

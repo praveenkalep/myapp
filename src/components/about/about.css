@@ -10,8 +10,9 @@
 }
 h1{
     text-align: center;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Comfortaa', cursive;
     color: rgb(121, 15, 115);
+    font-weight: bolder;
 }
 .about-us ul li {
     text-decoration: none;
@@ -39,7 +40,7 @@ h1{
 }
 .pr p{
     font-size: 20px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family:'Cinzel Decorative',cursive;
     color: rgb(247, 247, 247);
     background-color: rgb(121, 15, 115);
     opacity: 0.8;

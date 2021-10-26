@@ -1,5 +1,5 @@
 import React from "react";
-import "./exparlour.css"
+import "./exparlour.css";
 import ParImg from "../images/parlour.png";
 import exparlour from "../images/exparlour.png"
 import Bridel from "../images/bridal.png"
@@ -14,6 +14,7 @@ import Hairstraight from "../images/hairstraight.png"
 import {Link} from "react-router-dom"
 import Footer from "../footer/footer";
 import Booking from "../booking/booking"
+import Appoinment from "../appoinment/appoinment"
 
 function Exparlour (){
     return (
@@ -31,11 +32,12 @@ function Exparlour (){
             <br/><br/>
             <div className="packages">
             <h3>Packages</h3>
+            <br/><br/>
             <ul className="line"> 
               <li><div className="parl"><img src={Bridel} alt="" className="Par" />
                   <p>Bridal Makeup</p>
                      <Link to="/appoinment"><input type="button" name="ap" value="Appoinment" className="apmnt"/></Link>
-                         <Link to="booking"> <input type="button" name="bk" value="Book" className="bk"/></Link>
+                         <Link to="/booking"> <input type="button" name="bk" value="Book" className="bk"/></Link>
                   </div></li>
               <li><div className="parl"><img src={Makeup} alt="" className="Par" />
                  <p>Bleaching Treatment</p>
