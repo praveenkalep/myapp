@@ -50,7 +50,7 @@ import Video from "../images/video.mp4"
                 <br/>
                 <ul>
                 <li>      <div clasName="video">
-                   <video width="500" height="320" controls loop loop={true} autoPlay={true} muted={true}>
+                   <video width="500" height="320" controls={false} loop loop={true} autoPlay={true} muted={true}>
                        <source src={Video} type="video/mp4"/>
                    </video>
             </div>  </li>

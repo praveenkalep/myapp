@@ -35,13 +35,13 @@ function signup (){
                 <div className="form-group">
                   <label htmlFor="password">
                   <i class="zmdi zmdi-lock material-icons-lock"></i></label>
-                    <input type="text" id="password" name="password" autoComplete="off" placeholder=" Password" required/>
+                    <input type="password" id="password" name="password" autoComplete="off" placeholder=" Password" required/>
                 </div>
                 <br/>
                 <div className="form-group">
                   <label htmlFor="cpassword">
                   <i class="zmdi zmdi-lock material-icons-lock"></i></label>
-                    <input type="text" id="cpassword" name="cpassword" autoComplete="off" placeholder=" Confirm Password" required/>
+                    <input type="password" id="cpassword" name="cpassword" autoComplete="off" placeholder=" Confirm Password" required/>
                 </div> 
                 <br/>     
                 <div className="buton">

@@ -20,7 +20,7 @@ function login () {
                 <div className="formgroup">
                   <label htmlFor="password">
                   <i class="zmdi zmdi-lock material-icons-lock"></i></label>
-                    <input type="text" id="password" name="password" autoComplete="off" placeholder=" Password" required/>
+                    <input type="password" id="password" name="password" autoComplete="off" placeholder=" Password" required/>
                 </div>
                 <br/>
                 <div className="buton">

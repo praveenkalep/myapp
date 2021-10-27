@@ -21,6 +21,7 @@ function about (){
                         <div className="photo"> 
                         <img src={kruthiga} /></div>
                     </li>
+        
                     <li>
                         <div className="pr">
                         <p>As a woman, I became aware of how tough it is for other women to keep their attractiveness and decided to start this service.

@@ -13,8 +13,16 @@
 .par{
     border: 5px black;
 }
-.par:hover {
+.par img:hover {
     transform: scale(1.2)
+}
+.par img{
+    transition: transform 1s;
+    border-radius: 0px;
+    box-shadow: 10px 10px 5px #ccc;
+    -moz-box-shadow: 10px 10px 5px #ccc;
+    -webkit-box-shadow: 10px 10px 5px #ccc;
+    -khtml-box-shadow: 10px 10px 5px #ccc;
 }
 .Par{
     height: 300px;
@@ -25,6 +33,9 @@
     text-align: center;
     font-size: 25px;
     font-family: 'Raleway', sans-serif;
-    color: rgb(116, 5, 116);
+    color: rgb(96, 9, 99);
     font-weight: bolder;
+}
+.par h2{
+    margin-top:45px
 }

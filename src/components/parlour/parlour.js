@@ -18,7 +18,7 @@ function parlour (){
         <div >
             <section className="parlour-page">
         <ul className="line2"> 
-         <li><Link to="/exparlour"><div className="par"><img src={ParImg} alt="" className="Par" /><h2>Hair And Beauty Salon</h2></div></Link></li>
+         <li><div className="par"><Link to="/exparlour"><img src={ParImg} alt="" className="Par" /></Link><h2>Hair And Beauty Salon</h2></div></li>
          <li><Link><div className="par"><img src={Par1} alt="" className="Par" /><h2>Koaly Sala</h2></div></Link></li>
          <li><Link><div className="par"><img src={Par2} alt="" className="Par" /><h2>Attraction</h2></div></Link></li>
         </ul>

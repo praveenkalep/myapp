@@ -32,11 +32,19 @@ h1{
     height: 300px;
     width: 250px;
     margin-top: -150px;
+    box-shadow: 10px 10px 5px #ccc;
+    -moz-box-shadow: 10px 10px 5px #ccc;
+    -webkit-box-shadow: 10px 10px 5px #ccc;
+    -khtml-box-shadow: 10px 10px 5px #ccc;
 }
 .pr{
     width: 930px;
     margin-left: 25px;
     margin-top: 45px;
+    box-shadow: 10px 10px 5px #ccc;
+    -moz-box-shadow: 10px 10px 5px #ccc;
+    -webkit-box-shadow: 10px 10px 5px #ccc;
+    -khtml-box-shadow: 10px 10px 5px #ccc;
 }
 .pr p{
     font-size: 20px;

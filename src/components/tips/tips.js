@@ -25,6 +25,7 @@ import Footer from "../footer/footer"
                         </p>
                         </div>
                     </li>
+                    
                     <li>
                         <div className="tips-img" >
                             <img src={Water} alt="" />
@@ -39,6 +40,7 @@ import Footer from "../footer/footer"
                         </p>
                         </div>
                     </li>
+                    
                     <li>
                         <div className="tips-img1" >
                             <img src={Hands} alt="" />

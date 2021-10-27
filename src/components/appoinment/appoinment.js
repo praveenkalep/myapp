@@ -11,10 +11,22 @@ function Appoinment (){
              <h2 className="appoinmment-title">Appoinmment</h2>
              <form className="appoinmment-register" id="register-form">  
              <div className="appoinmment-group">
+             <label htmlFor="name">
+                  <i class="zmdi zmdi-account material-icons-name"></i></label>
+                    <input type="text" id="name" name="name" autoComplete="off" placeholder="Name" required/>
+                    </div>
+                    <br/>
+                    <div className="appoinmment-group" >
+                  <label htmlFor="phoneno">
+                  <i class="zmdi zmdi-phone-in-talk material-icons-phone-in-talk"></i></label>
+                    <input type="text" id="phoneno" name="phoneno" autoComplete="off" placeholder=" Phone Number" required title="Please Enter Your Phone Number "/>
+                </div>
+                <br/>
+             <div className="appoinmment-group">
                  <label htmlFor="add">
                  <i class="zmdi zmdi-cake material-icons-cake"></i></label>
                    <input type="text" id="name" name="name" autoComplete="off" placeholder="Package Type" required/>
-               </div>
+               </div>           
                <br/>
                <div className="appoinmment-group">
                  <label htmlFor="add">
