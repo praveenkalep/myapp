@@ -1,7 +1,8 @@
 import React from "react";
 import "./appoinment.css"
 import Footer from "../footer/footer"
-
+import Payment from "../appoinment/appoinment"
+import {Link} from "react-router-dom"
 function Appoinment (){
     return(
         <div>
@@ -47,7 +48,7 @@ function Appoinment (){
                </div>
                <br/>
                <div className="buton">
-                 <button className="submit" value="Apply" type="button" className="button">Book</button>
+                <Link to="/payment"><button className="button" value="Apply" type="submit" className="button">Book</button></Link> 
                  </div>
                <br/>   
                <br/>               

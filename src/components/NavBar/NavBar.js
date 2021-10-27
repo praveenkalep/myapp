@@ -14,11 +14,12 @@ import login from "../login/login"
 import signup from"../signup/signup"
 import HomePage from "../homepage/homepage";
 import logo from "../images/logo.png"
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 function NavBar (){
     return (
-        <div className="menu">
+        <div className="col-sm-offset-2">
          
     <nav className="navbar">
       <ul className="signup"> 

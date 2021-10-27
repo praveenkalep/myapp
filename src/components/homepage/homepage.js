@@ -71,25 +71,25 @@ import Video from "../images/video.mp4"
                     <li>
                         <div className="mem">
                         <img src ={kruthiga} alt="" className="team"/>
-                        <h3>Miss.Kruthiga <br/>Suthakaran</h3>
+                        <h3>Kruthiga <br/>Suthakaran</h3>
                         </div>
                     </li>
                     <li>
                         <div  className="mem">
                         <img src ={vitthiya} alt="" className="team"/>
-                        <h3>Miss.Vitthiya <br/>Niththiyananthan</h3>
+                        <h3>Vitthiya <br/>Niththiyananthan</h3>
                         </div>
                     </li>
                     <li>
                         <div  className="mem">
                         <img src ={pirathap} alt="" className="team"/>
-                        <h3>Mr.Sivananthan <br/>Pirathap</h3>
+                        <h3>Sivananthan <br/>Pirathap</h3>
                         </div>
                     </li>
                     <li>
                         <div  className="mem">
                         <img src ={praveen} alt="" className="team"/>
-                        <h3>Mr.Pathmakumar <br/>Praveen</h3>
+                        <h3>Pathmakumar <br/>Praveen</h3>
                         </div>
                     </li>
                 </ul>

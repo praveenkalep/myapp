@@ -20,6 +20,7 @@ import ourservices from "./components/ourservices/ourservices"
 import Exparlour from "./components/exparlour/exparlour";
 import Booking from "./components/booking/booking"
 import Appoinment from "./components/appoinment/appoinment"
+import Payment from "./components/payment/payment"
 
 function App  () {
   return (
@@ -38,6 +39,7 @@ function App  () {
       <Route path="/exparlour" component={Exparlour} />
       <Route path="/booking" component={Booking} />
       <Route path="/appoinment" component={ Appoinment } />
+      <Route path="/payment" component={Payment} />
      
     </Switch>
   </Router>

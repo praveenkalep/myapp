@@ -14,20 +14,20 @@
   }
   .login-form{
    width: 330px;
-   background-color:rgb(97, 29, 86);
-   height: 400px;
+   background-color:rgb(110, 20, 80);
+   height: 350px;
    float: left;
    position: relative;
    box-shadow: inset 0 0 15px rgb(0, 0, 0);
    margin-left: 48%;
-   margin-top: -470px;
+   margin-top: -417px;
   
   }
   .login-register{
-    background-color:rgb(97, 29, 86);
+    background-color:rgb(99, 48, 79);
     padding-left: 15%;
     padding-right: 25%;
-    height: 280px;
+    height: 230px;
     width: 280px;
     margin: 0 auto;
     padding-top: 20px;
@@ -36,7 +36,7 @@
   }
   .formgroup{
     background-color: rgb(0, 0, 0);
-    height: 55px;
+    height: 30px;
     width: 200px;
     margin-top: 15px;
     text-align: center;
@@ -45,7 +45,7 @@
   .formgroup input{
     border: none;
     width: 160px;
-    height:50px ;
+    height:25px ;
     outline: none;
     margin: 0 auto;
     background-color: rgb(0, 0, 0);
@@ -81,7 +81,7 @@
   }
   .logim{
     width:310px;
-    height: 400px;
+    height: 350px;
     margin-top: 45px;
     margin-left: 24%;
     opacity:0.8;

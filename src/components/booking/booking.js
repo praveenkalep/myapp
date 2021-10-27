@@ -1,6 +1,8 @@
 import React from "react";
 import "./booking.css"
 import Footer from "../footer/footer"
+import Payment from "../payment/payment"
+import {Link} from "react-router-dom"
  function Booking (){
      return(
        <div>
@@ -41,7 +43,7 @@ import Footer from "../footer/footer"
              
                 <br/>
                 <div className="buton">
-                  <button className="submit" value="Apply" type="button" className="button">Book</button>
+                <Link to="/payment"> <button className="submit" value="Apply" type="button" className="button">Book</button></Link> 
                   </div>
                 <br/>   
 

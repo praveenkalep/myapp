@@ -140,7 +140,7 @@ input.appo:hover{
  font-weight: bolder;
  color: rgb(121, 15, 115);
  text-align: center;
- margin-left:65px;
+ margin-left:155px;
 }
 .intro p{
   font-size: 20px;
@@ -148,7 +148,7 @@ input.appo:hover{
   color: rgb(121, 15, 115);
   float: right;
   width: 700px;
-  margin-left: 35px;
+  margin-left: 55px;
   border-color:purple;
 }
 
@@ -163,7 +163,7 @@ input.appo:hover{
   display: inline-block;
 }
  video{
-    margin-left: auto;
+    margin-left: 45px;
     margin-right: auto;
     display: block;
     margin-top:-460px;
@@ -180,7 +180,7 @@ input.appo:hover{
   color: rgb(121, 15, 115);
   background-color: white;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
- 
+  margin-left:-25px;
 }
 input.our-services-button:hover{
   background-color: rgb(121, 15, 115);

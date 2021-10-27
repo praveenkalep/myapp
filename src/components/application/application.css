@@ -19,7 +19,7 @@
   }
   .application-form{
    width: 800px;
-   background-color:rgb(187, 76, 169);
+   background-color:rgb(110, 20, 80);
    height: 780px;
    float: left;
    position: relative;
@@ -28,7 +28,7 @@
    position: relative;
   }
   .application-register{
-    background-color:rgb(187, 76, 169);
+    background-color:rgb(99, 48, 79);
     padding-left: 15%;
     padding-right: 25%;
     height: 650px;
@@ -92,7 +92,7 @@
   }
   .application-forme{
     width: 800px;
-    background-color:rgb(187, 76, 169);
+    background-color:rgb(110, 20, 80);
     height: 800px;
     float: left;
     position: absolute;
